@@ -76,7 +76,7 @@
 }
 
 
-.command-social-link {
+.command__social__link {
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;
@@ -96,8 +96,8 @@
 
 
 
-.command-social-link:hover,
-.command-social-link:focus {
+.command__social__link:hover,
+.command__social__link:focus {
     background-color: var(--accent-color);
     color: #FFFFFF;
 }

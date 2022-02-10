@@ -1,27 +1,26 @@
-.hero-bg {
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--main-text-color);
-    background-image: 
-          linear-gradient(rgba(55, 47, 58, 0.4),
+    .hero__container {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--main-text-color);
+        background-image: 
+        linear-gradient(rgba(55, 47, 58, 0.4),
         rgba(86, 86, 92, 0.4)),
-          url(../img.1p/Img.hero.jpg); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+        url(../img.1p/Img.hero.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     
     
     .hero {
-     
         padding-top: 200px ;
         padding-bottom: 200px;
     }
     
     
     
-    .hero-btn {
+    .hero__btn {
         background: #2196F3;
         font-weight: 700;
         line-height: 1.87;

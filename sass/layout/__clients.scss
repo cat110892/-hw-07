@@ -21,9 +21,9 @@ color: #212121;
 .list-clients {
     display: flex;
     justify-content: center;
-    padding-left: 215px;
-    padding-right: 215px;
-    padding-top: 50px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 50px;
 }
 
 .title-clients {
@@ -32,7 +32,7 @@ color: #212121;
     margin-right: 30px;
 
 }
-.clients-icon {
+.clients__icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,8 +51,8 @@ color: #212121;
     fill: currentColor
 }
 
-.clients-icon:focus,
-.clients-icon:hover {
+.clients__icon:focus,
+.clients__icon:hover {
     border-color: var(--accent-color);
     color: var(--accent-color);
 }
